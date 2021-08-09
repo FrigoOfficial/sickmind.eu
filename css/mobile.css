@@ -1,0 +1,27 @@
+@media screen and (max-width 600px){
+  header{
+	  text-align: center;
+  }
+  .join{
+	float: none;
+	margin: 10px;
+  }
+  
+  .homeheader h3{
+	  width: 300px;
+	  margin: auto;
+	  text-align: cneter;
+  }
+  
+  .homeheader{
+     height: 500px;
+  }
+  
+  .btnJoin{
+	display: block;
+  }
+  
+  nav ul li{
+	  display: block;
+  }
+}
