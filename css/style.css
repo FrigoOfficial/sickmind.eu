@@ -1,0 +1,191 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+header{
+    background-color: #e20aff;
+	color: white;
+	padding: 3px;
+}
+
+header h2, header span{
+	display: inline-block;
+}
+
+.logo{
+	font-size: 200%;
+}
+
+.join{
+	float: right;
+	position: relative;
+	margin-top: 2%;
+	margin-right: 15px;
+	font-size: 150%;
+}
+
+.join b{
+	color: gold;
+}
+
+nav{
+  background-color: #031b24;
+  text-align: center;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 15px;
+}
+
+nav ul li:hover{
+	background-color: black;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.homeheader{
+	background-image: url(../image/home.png);
+	background-size: cover;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.labelbar{
+	color: red;
+	text-align: center;
+	padding: 25px;
+	height: auto;
+}
+
+.labelbar h3{
+	margin: 2%;
+}
+
+.btnJoin{
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 200px;
+	padding: 15px;
+	margin: 10px;
+}
+
+.btnJoin:hover{
+	background-color: rgb{255, 255, 255,};
+	color: black;
+	border-color: black;
+}
+#boxes{
+	text-align: center;
+	background-color: #0d4d4a;
+	padding: 15px;
+}
+
+.card{
+	background-color: #168c88;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+	width: 250px;
+	padding: 15px;
+	margin: 10px;
+	margin-right: 5%;
+	display: inline-block;
+	-webkit-box-shadow: -2px 2px 5px 0px rgba (0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 5px 0px rgba (0,0,0,0.75);
+    box-shadow: -2px 2px 5px 0px rgba (0,0,0,0.75);
+}
+
+.card:hover{
+	 -webkit-box-shadow: -2px 2px 12px 0px rgba (0,0,0,0.75);
+     -moz-box-shadow: -2px 2px 12px 0px rgba (0,0,0,0.75);
+     box-shadow: -2px 2px 12px 0px rgba (0,0,0,0.75);
+}
+
+#staff{
+	text-align: center;
+	background-image: url("../image/staffimg.png");
+	padding: 15px;
+	color: white;
+}
+
+.staffCard{
+  width: 300px;
+  background-color: #003961;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  padding: 40px;
+  border: 1px solid block;
+  border-radius: 73px;
+  margin: 0px;
+  -webkit-box-shadow: -2px 2px 5px 0px rgba (0,0,0,0.75);
+  -moz-box-shadow: -2px 2px 5px 0px rgba (0,0,0,0.75);
+  box-shadow: -2px 2px 5px 0px rgba (0,0,0,0.75);
+}
+.staffCard img{
+	width: 100%;
+}
+
+.staffCard div{
+	padding: 0;
+    text-align: center;
+}
+
+.staffCard span{
+	background-color: red;
+	border-radius: 200px;
+	padding: 5px;
+}
+
+.fa{
+	padding:20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 200px;
+	margin: 1.5%;
+}
+
+.fa:hover{
+	opacity: 0.5;
+}
+
+.fa-telegram{
+	background-color: #307da6;
+	color: white;
+}
+
+.fa-youtube{
+	background-color: #db3d21;
+	color: white;
+}
+
+footer{
+	text-align: center;
+	background-color: #1c1b1b;
+	color: white;
+	padding: 15px;
+}
+
+.copyright{
+	color: red;
+	background-color: #171616;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+}
